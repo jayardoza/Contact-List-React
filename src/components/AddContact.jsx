@@ -17,7 +17,7 @@ function AddContact({ onAdd }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://doited-error.000webhostapp.com/add.php', {
+      const response = await fetch('https://conlisweb.000webhostapp.com/add.php',{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

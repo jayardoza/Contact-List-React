@@ -13,7 +13,7 @@ function EditContact({contact, onSave}) {
     e.preventDefault();
     try {
       
-      const response = await fetch('https://doited-error.000webhostapp.com/edit.php', {
+      const response = await fetch('https://conlisweb.000webhostapp.com/edit.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

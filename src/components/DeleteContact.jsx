@@ -4,7 +4,7 @@ function DeleteContact({contactId, onDelete}) {
   const handleDelete = async () => {
     
     try {
-      const response = await fetch(`https://doited-error.000webhostapp.com/delete.php?id=${contactId}`, {
+      const response = await fetch(`https://conlisweb.000webhostapp.com/delete.php?id=${contactId}`, {
         method: 'DELETE',
       });
       const data = await response.json();

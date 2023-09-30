@@ -14,7 +14,7 @@ function ContactList() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch('https://doited-error.000webhostapp.com/read.php');
+        const response = await fetch('https://conlisweb.000webhostapp.com/read.php');
         const data = await response.json();
 
         if (data.status === 200) {
